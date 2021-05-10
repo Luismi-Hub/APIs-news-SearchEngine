@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+
+<style>
+
+</style>
+
+<body>
+
+    <div style="display: flex; justify-content: center;">
+        <img src="https://1000marcas.net/wp-content/uploads/2021/04/The-Guardian-logo.png">
+    </div>
+
+    <div class="panel">
+
+
+
+
+        <input type="text" id="entrada">
+        <button id="boton">Search</button>
+    </div>
+
+    <div id="divResultados"></div>
+
+
+    <iframe src="https://giphy.com/embed/y1ZBcOGOOtlpC" width="180" height="180" frameBorder="0" id="spinner"
+        class="giphy-embed" allowFullScreen style="margin:auto"></iframe>
+
+
+    <div>
+        <div id="titulo">
+            <h1 style="color: rgb(104, 104, 104);">Search for the latest news</h1>
+        </div>
+    </div>
+
+
+    <div id="container"></div>
+
+
+    <br>
+    <div id="pagination">
+        <a href="#" onclick="uno()">&laquo;</a>
+        <a href="#" class="active" onclick="uno()" id="primera">1</a>
+        <a href="#" onclick="dos()" id="segunda">2</a>
+        <a href="#" onclick="dos()">&raquo;</a>
+    </div>
+    <br><br>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
